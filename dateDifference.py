@@ -22,3 +22,25 @@ def take_difference(datetime1, datetime2):
 	return 'The time diference is {} seconds'.format( diffSeconds.seconds )
 
 print(take_difference(datetime1, datetime2))
+
+
+"""
+
+
+# For begginers:
+def take_difference(datetime1, datetime2):
+  return int((datetime2-datetime1).total_seconds())
+
+testyourcode.check_funcion(take_difference)
+
+# For advanced:
+
+def take_difference2(datetime1, datetime2, unit='second'):
+    outp_true=int((datetime2-datetime1).total_seconds())
+    if unit=='minute':
+      outp_true=int(outp_true/60)
+    elif unit=='hour':
+      outp_true=int(outp_true/3600)
+    return outp_true
+
+"""
