@@ -27,3 +27,13 @@ def computeAvg(list_of_tuples):
 	return avgPrice
 
 print(computeAvg([(469.25, 28), (32.44, 2), (35.34, 2)]))
+
+"""
+
+
+def compute_average_price(list_of_tuples):
+  return round((sum([el[0] for el in list_of_tuples]) / sum(el[1] for el in list_of_tuples)), 2)
+
+
+
+"""
