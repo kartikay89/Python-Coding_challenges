@@ -52,3 +52,14 @@ def check_domains(list_of_emails):
 
 print(check_domains(listOfEmails))
 
+
+"""
+def check_domains(list_of_emails):
+  return Counter([d.split('@')[1] for d in list_of_emails])
+
+emails = ['magda@gmail.com', 'travelingprogrammer@yahoo.com','polishgirl@outlook.com', 'travelingprogrammer@gmail.com']
+print(check_domains(emails))
+
+
+"""
+
