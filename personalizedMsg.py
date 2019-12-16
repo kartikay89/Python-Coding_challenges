@@ -35,3 +35,15 @@ def send_personalized_email(email_dictionary):
 updateDict()
 # print(emails)
 print(send_personalized_email(emails))
+
+"""
+
+def send_personalized_email(mapping, email_address):
+  reverse_mapping = {j:i for i,j in mapping.items()}
+  return "Dear %s, congrats on solving the task!" % (reverse_mapping[email_address])
+  
+mapping_dict = {'Magda' : 'travellingprogrammer@gmail.com', 'You': 'your@mail.com'}
+print(send_personalized_email(mapping_dict, 'your@mail.com'))
+
+
+"""
