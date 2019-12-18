@@ -28,3 +28,20 @@ def pick_random_pair(dictionary):
 print(pick_random_pair(personSkillDict))
 
 
+"""
+# beginners
+def pick_random_pair(dictionary):
+  return random.choice(list(dictionary.items())) 
+  
+dictionary = {'Johny': 2, 'Magda': 10, 'Paul': 7}
+print(pick_random_pair(dictionary))
+testyourcode.check_funcion(pick_random_pair)
+
+# advanced
+def pick_random_value_n_times(dictionary, n):
+  levels = [random.choice(list(dictionary.values())) for i in range(0,n)]
+  return sum(levels)/len(levels)
+
+print(pick_random_value_n_times(dictionary,10))
+"""
+

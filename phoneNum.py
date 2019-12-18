@@ -29,4 +29,12 @@ def find_missing_digit(pseudo_number):
 find_missing_digit(pseudoNumber)
 print(probNumbers)
 
+"""
+def find_missing_digit(pseudo_number):
+  digits_sum = sum([int(i) for i in pseudo_number if i!='x'])
+  for i in range(10):
+    if (digits_sum+i)%10==0:
+      return i
 
+
+"""
