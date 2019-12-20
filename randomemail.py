@@ -27,5 +27,15 @@ def check_attempts(list_of_emails, your_email):
 
 check_attempts(listOfEmails, myEmail)
 
+"""
+
+def check_attempts(list_of_emails, your_email):
+  counter = 1
+  while random.choice(list_of_emails) != your_email:
+    counter += 1
+  return counter
+
+
+"""
 
 
