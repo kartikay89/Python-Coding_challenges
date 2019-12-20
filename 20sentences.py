@@ -64,7 +64,7 @@ def generate_sentences(subjects, verbs, objects):
 generate_sentences(subjectsList, verbsList, objectsList)
 
 
-# Element extractor zeros and first element
+# Element extractor firsts and zero element
 def elementExtractorFirst(listOne, listTwo, listThree):
 	listOneIndexOnesZero = listOne[1]
 	listTwoIndexOnesZero = listTwo[1]
